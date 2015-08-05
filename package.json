@@ -1,0 +1,30 @@
+{
+  "name": "consequent-cache-redis",
+  "version": "0.0.0",
+  "description": "Redis cache store for Consequent",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "author": "LeanKit",
+  "license": "Copyright LeanKit 2014",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "redis": "0.12.x",
+    "hiredis": "0.4.x",
+    "sliver": "^0.1.0",
+    "when": "^3.7.3",
+    "whistlepunk": "^0.3.1"
+  },
+  "devDependencies": {
+    "biggulp": "0.2.x",
+    "chai": "^3.0.0",
+    "chai-as-promised": "^5.1.0",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.0",
+    "sinon": "^1.15.3",
+    "sinon-as-promised": "^4.0.0",
+    "sinon-chai": "^2.8.0",
+    "src-ctrl": "^0.1.1"
+  }
+}
